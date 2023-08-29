@@ -27,7 +27,7 @@
         </itunes:category> 
         <itunes:explicit>false</itunes:explicit>
 	<itunes:locked>false</itunes:locked>
-	<itunes:type>{{ podcast_type }}</itunes:type>
+	<itunes:type>episodic</itunes:type>
 	    
 {% for post in site.posts %}
         <item>
