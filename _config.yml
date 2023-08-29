@@ -1,16 +1,16 @@
 # Site settings
-title: "Jekyll Podcaster"
-description: "A Jekyll Theme designed for Podcasters"
-podcast-description: "A Jekyll Theme designed for Podcasters. This is your podcast's summary."
-url:  "https://jekyll-podcaster.netlify.app/" # Actual base url of the website
+title: "F1 per caso"
+description: "chiacchiere al vento sulla F1 e il motorsport"
+podcast-description: "chiacchiere al vento sulla F1 e il motorsport"
+url:  "https://extraordinary-smakager-b52da9.netlify.app" # Actual base url of the website
 baseurl: "/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
-  name: "Alessio Franceschi"
-  email: "alessiofranceschi2@gmail.com"
-  url: "https://alessiofranceschi.me"
+  name: "Alessandro Dell'Anna"
+  email: "alexdelli@gmail.com"
+  url: "https://alexdelli.it"
 permalink: pretty
 permalink: /:title
-keywords: [podcast, jekyll]
+keywords: [podcast, jekyll, f1, ferrari]
 
 #Plugins
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
@@ -28,30 +28,29 @@ sass:
 
 #SEO
 twitter:
-  username: PandaSekh
+  username:alexdelli
   card: summary
 facebook:
   app_id: 
 logo: /assets/img/Podcast_Cover.png
 social:
-  name: Alessio Franceschi
+  name: Alexdelli
   links:
-    - https://github.com/PandaSekh
-    - https://twitter.com/PandaSekh
-    - https://www.linkedin.com/in/alessio-franceschi/
+    - https://github.com/alexdelli
+    - https://twitter.com/alexdelli
 lang: it
 
 #Podcast Metadata. Used by the RSS Feed, which currently isn't in use. So you can avoid this
-podcast_title: Jekyll Podcaster
-podcast_author: Alessio Franceschi
-podcast_email: alessiofranceschi2@gmail.com
-podcast_subtitle: "A Jekyll Theme designed for Podcasters"
-podcast_summary: "A Jekyll Theme designed for Podcasters. This is your podcast's summary."
-podcast_description: "A Jekyll Theme designed for Podcasters. This is your podcast's description."
+podcast_title: F1 per caso
+podcast_author: Alessandro DellAnna
+podcast_email: alexdelli@gmail.com
+podcast_subtitle: "chiacchiere al vento sulla F1 e il motorsport"
+podcast_summary: "chiacchiere al vento sulla F1 e il motorsport"
+podcast_description: "chiacchiere al vento sulla F1 e il motorsport"
 podcast_explicit: "no"
-podcast_type: serial 
-podcast_lang: en
-podcast_launch: "2019-07-20" #Launch date of your podcast
-podcast_copyright: "&#xA9;Alessio Franceschi"
-podcast_feed: 
+podcast_type: episodic
+podcast_lang: it
+podcast_launch: "2023-08-10" #Launch date of your podcast
+podcast_copyright: "&#xA9;Alessandro Dell'Anna"
+podcast_feed: "https://anchor.fm/s/ae431e18/podcast/rss"
 podcast_artwork: "/assets/img/Podcast_Cover.png"
