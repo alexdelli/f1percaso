@@ -19,7 +19,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="{{ site.url }}{{ podcast_artwork }}" />
+        <itunes:image href="{{ site.url }}{{ itunes.artwork }}" />
 		<itunes:category text="Sport" />
 		<itunes:category text="Society &amp; Culture" />
         <itunes:category text="Sport">
@@ -40,7 +40,7 @@
             <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <itunes:duration>{{ post.duration }}</itunes:duration>
-            <itunes:explicit>No</itunes:explicit>
+            <itunes:explicit>false</itunes:explicit>
             <description>{{ post.summary | xml_escape }} {{ post.description | xml_escape }} Show Notes Available at {{ site.url }}{{ site.baseurl }}{{ post.url }}.</description>
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
