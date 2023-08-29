@@ -13,7 +13,7 @@ permalink: /:title
 keywords: [podcast, jekyll]
 
 #Plugins
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-rss]
 
 #exclude: [_podcast.rss] #Ignore this, it will be used in case I decide to add rss feed
 
