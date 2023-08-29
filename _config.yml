@@ -47,8 +47,8 @@ podcast_email: alexdelli@gmail.com
 podcast_subtitle: "chiacchiere al vento sulla F1 e il motorsport"
 podcast_summary: "chiacchiere al vento sulla F1 e il motorsport"
 podcast_description: "chiacchiere al vento sulla F1 e il motorsport"
-podcast_explicit: false
-podcast_type: episodic
+podcast_explicit: "false"
+podcast_type: "episodic"
 podcast_lang: it
 podcast_launch: "2023-08-10" #Launch date of your podcast
 podcast_copyright: "&#xA9;Alessandro Dell'Anna"
