@@ -25,7 +25,7 @@
         <itunes:category text="Sport">
             <itunes:category text="Sport" />
         </itunes:category> 
-        <itunes:explicit>{{ podcast_explicit }}</itunes:explicit>
+        <itunes:explicit>false</itunes:explicit>
 	<itunes:locked>false</itunes:locked>
 	<itunes:type>{{ podcast_type }}</itunes:type>
 	    
