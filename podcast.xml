@@ -19,7 +19,9 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image>"{{ site.url }}{{ site.podcast_artwork }}"</itunes:image>
+	<itunes:image
+        href="https://extraordinary-smakager-b52da9.netlify.app/assets/Podcast_Cover.png"
+        />
 		<itunes:category text="Sport" />
 		<itunes:category text="Society &amp; Culture" />
         <itunes:category text="Sport">
@@ -35,7 +37,9 @@
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-            <itunes:image href="{{ site.url }}{{ site.podcast_artwork }}" />
+	    <itunes:image
+            href="https://extraordinary-smakager-b52da9.netlify.app/assets/Podcast_Cover.png"
+            />
             <enclosure url="{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
             <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
