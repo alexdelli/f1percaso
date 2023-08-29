@@ -26,8 +26,8 @@
             <itunes:category text="Sport" />
         </itunes:category> 
         <itunes:explicit>{{ podcast_explicit }}</itunes:explicit>
-	<itunes:locked>No</itunes:locked>
-	<itunes:type>{{ itunes:type }}</itunes:type>
+	<itunes:locked>false</itunes:locked>
+	<itunes:type>{{ podcast_type }}</itunes:type>
 	    
 {% for post in site.posts %}
         <item>
