@@ -4,20 +4,20 @@ pages:
   - {name: 'Episodes', link: 'episodes.html'}
   - {name: 'Patreon', link: '#'}
   - {name: 'Shop', link: '#'}
-  - {name: 'GitHub', link: 'https://github.com/PandaSekh'}
+  - {name: 'GitHub', link: 'https://github.com/alexdelli/f1percaso'}
   - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
   - {icon: 'instagram', type: "brand", link: '#'}
-  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/alexdelli'}
   - {icon: 'facebook', type: "brand", link: '#'}
   - {icon: 'youtube', type: "brand", link: '#'}  
-  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
-  - {icon: 'rss', type: "solid", link: "#"}
+  - {icon: 'envelope', type: "solid", link: 'mailto:alexdelli@gmail.com'}
+  - {icon: 'rss', type: "solid", link: "https://extraordinary-smakager-b52da9.netlify.app/podcast.xml"}
 
 websites-podcast:
-  - {name: 'Apple Podcast', link: '#'}
-  - {name: 'Spotify', link: '#'}
+  - {name: 'Apple Podcast', link: 'https://podcasts.apple.com/us/podcast/f1-per-caso/id1701944438'}
+  - {name: 'Spotify', link: 'https://open.spotify.com/show/3dtuVyzqmkr18RoKmnaPK0?si=cff11f96591344b5'}
   - {name: 'YouTube', link: '#'}
   - {name: 'Android', link: '#'}
   - {name: 'Spreaker', link: '#'}
@@ -27,7 +27,7 @@ websites-podcast:
   - {name: 'Overcast', link: '#'}
   - {name: 'RadioPublic', link: '#'}
   - {name: 'Breaker', link: '#'}  
-  - {name: 'RSS', link: '#'}
+  - {name: 'RSS', link: 'https://extraordinary-smakager-b52da9.netlify.app/podcast.xml'}
 
 translate-date: true #See _includes/date.html to translate the months' name
 shownotes: true
