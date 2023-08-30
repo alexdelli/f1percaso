@@ -30,7 +30,7 @@
         <itunes:explicit>false</itunes:explicit>
 	<itunes:locked>false</itunes:locked>
 	<itunes:type>episodic</itunes:type>
-	    
+	<podcast:locked owner="alexdelli@gmail.com">no</podcast:locked> 
 {% for post in site.posts %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
