@@ -2,12 +2,12 @@
 title: "F1 per caso"
 description: "chiacchiere al vento sulla F1 e il motorsport"
 podcast-description: "chiacchiere al vento sulla F1 e il motorsport"
-url:  "https://extraordinary-smakager-b52da9.netlify.app" # Actual base url of the website
+url:  "https://f1percaso.com" # Actual base url of the website
 baseurl: "/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
   name: "Alessandro Dell'Anna"
   email: "alexdelli@gmail.com"
-  url: "https://alexdelli.it"
+  url: "https://f1percaso.comm"
 permalink: pretty
 permalink: /:title
 keywords: [podcast, jekyll, f1, ferrari]
